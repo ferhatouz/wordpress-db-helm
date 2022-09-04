@@ -1,5 +1,6 @@
 image: mysql
 tag: 5.7
+replicas: 1
 storage: 10
 storagename: manual
 accessMode: ReadWriteOnce
