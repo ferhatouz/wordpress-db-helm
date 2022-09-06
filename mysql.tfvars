@@ -1,0 +1,9 @@
+image= "mysql"
+tag= "5.7"
+replicas= 1
+storage= 10
+storagename= "manual"
+accessMode= "ReadWriteOnce"
+port= 3306
+namespace= "wordpress"
+volume_path= "/mnt/data"
