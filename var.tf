@@ -25,3 +25,18 @@ variable "namespace" {
 variable "volume_path" {
   type = string
 }
+variable "realesename" {
+    type = string
+}
+variable "chart" {
+  type = string
+}
+variable "file" {
+  type = string
+}
+variable "pvname" {
+  type = string
+}
+variable "pvcname" {
+  type = string
+}
